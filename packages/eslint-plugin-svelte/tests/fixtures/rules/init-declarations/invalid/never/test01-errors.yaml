@@ -1,0 +1,40 @@
+- message: Variable 'initializedVar' should not be initialized on declaration.
+  line: 6
+  column: 5
+  suggestions: null
+- message: Variable 'initializedLet' should not be initialized on declaration.
+  line: 7
+  column: 5
+  suggestions: null
+- message: Variable 'bothInitializedVars1' should not be initialized on declaration.
+  line: 9
+  column: 5
+  suggestions: null
+- message: Variable 'initializedVar1' should not be initialized on declaration.
+  line: 10
+  column: 28
+  suggestions: null
+- message: Variable 'initializedVar2' should not be initialized on declaration.
+  line: 10
+  column: 49
+  suggestions: null
+- message: Variable 'i' should not be initialized on declaration.
+  line: 12
+  column: 9
+  suggestions: null
+- message: Variable 'foo' should not be initialized on declaration.
+  line: 13
+  column: 10
+  suggestions: null
+- message: Variable 'bar' should not be initialized on declaration.
+  line: 15
+  column: 32
+  suggestions: null
+- message: Variable 'a' should not be initialized on declaration.
+  line: 16
+  column: 23
+  suggestions: null
+- message: Variable 'c' should not be initialized on declaration.
+  line: 17
+  column: 47
+  suggestions: null

@@ -80,6 +80,11 @@ export interface RuleOptions {
    */
   'svelte/infinite-reactive-loop'?: Linter.RuleEntry<[]>
   /**
+   * Require or disallow initialization in variable declarations
+   * @see https://sveltejs.github.io/eslint-plugin-svelte/rules/init-declarations/
+   */
+  'svelte/init-declarations'?: Linter.RuleEntry<SvelteInitDeclarations>
+  /**
    * enforce the maximum number of attributes per line
    * @see https://sveltejs.github.io/eslint-plugin-svelte/rules/max-attributes-per-line/
    */
@@ -395,6 +400,10 @@ type SvelteIndent = []|[{
     [k: string]: unknown | undefined
   })[]
 }]
+// ----- svelte/init-declarations -----
+type SvelteInitDeclarations = ([]|["always"] | []|["never"]|["never", {
+  ignoreForLoopInit?: boolean
+}])
 // ----- svelte/max-attributes-per-line -----
 type SvelteMaxAttributesPerLine = []|[{
   multiline?: number

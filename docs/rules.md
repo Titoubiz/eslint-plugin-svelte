@@ -99,6 +99,7 @@ These rules extend the rules provided by ESLint itself, or other plugins to work
 
 | Rule ID                                                          | Description                                                   |          |
 | :--------------------------------------------------------------- | :------------------------------------------------------------ | :------- |
+| [svelte/init-declarations](./rules/init-declarations.md)         | Require or disallow initialization in variable declarations   |          |
 | [svelte/no-inner-declarations](./rules/no-inner-declarations.md) | disallow variable or `function` declarations in nested blocks | :star:   |
 | [svelte/no-trailing-spaces](./rules/no-trailing-spaces.md)       | disallow trailing whitespace at the end of lines              | :wrench: |
 

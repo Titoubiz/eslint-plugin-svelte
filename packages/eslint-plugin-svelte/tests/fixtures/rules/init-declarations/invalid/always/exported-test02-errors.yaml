@@ -1,0 +1,20 @@
+- message: Variable 'bar' should be initialized on declaration.
+  line: 7
+  column: 44
+  suggestions: null
+- message: Variable 'foo' should be initialized on declaration.
+  line: 8
+  column: 31
+  suggestions: null
+- message: Variable 'b' should be initialized on declaration.
+  line: 9
+  column: 38
+  suggestions: null
+- message: Variable 'a' should be initialized on declaration.
+  line: 10
+  column: 31
+  suggestions: null
+- message: Variable 'c' should be initialized on declaration.
+  line: 10
+  column: 55
+  suggestions: null
